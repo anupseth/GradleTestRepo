@@ -10,4 +10,10 @@ public class FirstController {
     public String sayHello(){
         return "Hello Sir";
     }
+    
+    
+    @GetMapping("/hello-sp1task2")
+    public String sayHello(){
+        return "Hello sp1task2";
+    }
 }
