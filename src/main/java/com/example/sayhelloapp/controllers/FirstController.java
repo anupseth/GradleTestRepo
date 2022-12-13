@@ -13,7 +13,7 @@ public class FirstController {
     
     
     @GetMapping("/hello-sp1task2")
-    public String sayHello(){
+    public String sayHello2(){
         return "Hello sp1task2";
     }
 }
